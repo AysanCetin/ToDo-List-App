@@ -10,11 +10,4 @@ urlpatterns = [
     path('yes_finish/<ToDos_id>', views.yes_finish, name = "yes_finish"),
     path('no_finish/<ToDos_id>', views.no_finish, name = "no_finish"),
     path('update/<ToDos_id>', views.update, name = "update"),
-
 ]
-
-# -2- bu da bizi home index sayfamızda (hiçbirşeyin, 'about' gibi herhangi bir 
-# uzantının olmadığı yerde ---> '' ---> bizi index e yönlendirir...
-
-# http://127.0.0.1:8000/ --->>> index sayfası
-# http://127.0.0.1:8000/admin/ --->>> admin sayfası --->>> http://127.0.0.1:8000/admin/login/
